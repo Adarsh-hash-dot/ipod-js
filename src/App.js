@@ -1,9 +1,14 @@
 import './App.css';
+import Controls from './components/controls/Controls';
+import ScreenView from './components/screenView/ScreenView';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <div>
+        <ScreenView />
+        <Controls />
+      </div>
     </div>
   );
 }
